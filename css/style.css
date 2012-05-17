@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+}
+
+#drupal-doc {
+	border: 2px solid #F9F9F9;
+	
+	padding: 10px;
+	
+	text-align: center; 
+	width: 620px;
+	height: 200px;
+	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	
+	background: #FCFCFC;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FCFCFC), to(#FDFDFD));
+	background: -webkit-linear-gradient(#FCFCFC, #FDFDFD);
+	background: -moz-linear-gradient(#FCFCFC, #FDFDFD);
+	background: -ms-linear-gradient(#FCFCFC, #FDFDFD);
+	background: -o-linear-gradient(#FCFCFC, #FDFDFD);
+	background: linear-gradient(#FCFCFC, #FDFDFD);
+}
+
+.drupal-section {
+	border: 3px solid #DADADA;
+	
+	/*padding: 60px 0;*/
+	
+	text-align: center; 
+	width: 200px;
+	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	/*
+	-webkit-box-shadow: #666 0px 2px 3px;
+	-moz-box-shadow: #666 0px 2px 3px;
+	box-shadow: #666 0px 2px 3px;
+	*/
+		
+	background: #F0F0F0;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F0F0F0), to(#FBFBFB));
+	background: -webkit-linear-gradient(#F0F0F0, #FBFBFB);
+	background: -moz-linear-gradient(#F0F0F0, #FBFBFB);
+	background: -ms-linear-gradient(#F0F0F0, #FBFBFB);
+	background: -o-linear-gradient(#F0F0F0, #FBFBFB);
+	background: linear-gradient(#F0F0F0, #FBFBFB);
+	
+	float: left;
+	height: 45px;
+}
+
+.drupal-br {
+	clear: left;
+}
